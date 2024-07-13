@@ -1,0 +1,87 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("¡Hola, mundo!");
+    }
+}
+
+
+
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int a = 5;
+        int b = 3;
+        
+        int suma = a + b;
+        int resta = a - b;
+        int producto = a * b;
+        double division = (double)a / b; // División con resultado decimal
+        
+        Console.WriteLine($"Suma: {suma}");
+        Console.WriteLine($"Resta: {resta}");
+        Console.WriteLine($"Producto: {producto}");
+        Console.WriteLine($"División: {division}");
+    }
+}
+
+
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int edad = 25;
+        
+        if (edad >= 18)
+        {
+            Console.WriteLine("Eres mayor de edad.");
+        }
+        else
+        {
+            Console.WriteLine("Eres menor de edad.");
+        }
+        
+        // Bucle for para imprimir números del 1 al 5
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine(i);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Declaración e inicialización de un array de números
+        int[] numeros = { 1, 2, 3, 4, 5 };
+        
+        // Iteración sobre el array e impresión de cada elemento
+        foreach (int numero in numeros)
+        {
+            Console.WriteLine(numero);
+        }
+    }
+}
+
